@@ -1,21 +1,172 @@
 {
   "_readme": [
-    "논문을 추가하려면 아래 publications 배열에 항목을 넣으세요. 순서는 상관없습니다 (연도별로 자동 정렬).",
+    "논문을 추가하려면 publications 배열에 항목을 넣으세요. 순서는 상관없습니다 (연도별로 자동 정렬).",
     "필수: year, title.  선택: authors, venue, detail, doi, url, note",
     "authors 안에서 우리 연구실 저자는 <b>이름</b> 으로 감싸면 굵게 표시됩니다.",
     "doi 는 번호만 넣으면 됩니다 (예: 10.1186/s13321-025-01047-8).",
-    "화면에는 최근 2개 연도가 펼쳐지고, 그보다 오래된 연도는 '이전 논문 보기'로 접힙니다.",
+    "recentYears 개의 최근 연도가 펼쳐지고, 그보다 오래된 연도는 '이전 논문 보기'로 접힙니다.",
     "이 _readme 키는 화면에 표시되지 않습니다."
   ],
-  "recentYears": 2,
+  "recentYears": 3,
   "publications": [
     {
+      "year": 2026,
+      "title": "Discovery of a new GLP-1 receptor agonist using DNA encoded-libraries and similarity search",
+      "authors": "Ju Ho Lee, Doyoun Kim, Hyejin Jeon, Sung Bum Park, Byumseok Koh, Byungho Lim, Kyeong A Lee, Kyoung Jin Choi, Seong Soon Kim, Yujin Kwon, et al.",
+      "venue": "Results in Chemistry",
+      "detail": "103415"
+    },
+    {
       "year": 2025,
-      "authors": "<b>Nam-Chul Cho</b>, et al.",
       "title": "The first South Korean data challenge for drug discovery using human and mouse liver microsomal stability data",
+      "authors": "<b>Nam-Chul Cho</b>, SeongEun Hong, Jin Sook Song, EuiJu Yeo, SoI Jung, <b>Yuno Lee</b>, <b>Seul Gee Hwang</b>, Su Min Kang, JaeSung Hwang, Tae-Eun Jin",
       "venue": "Journal of Cheminformatics",
       "detail": "17, 139",
       "doi": "10.1186/s13321-025-01047-8"
+    },
+    {
+      "year": 2025,
+      "title": "Cytotoxic profiling of Korea Chemical Bank diversity library",
+      "authors": "Jinhee Kim, Kwang-Eun Choi, <b>Yuno Lee</b>, Daeyoung Jeong, Hyun Young Kim, Jung-In Lee, Heeyeong Cho, <b>Nam-Chul Cho</b>",
+      "venue": "SLAS Discovery",
+      "detail": "35, 100267",
+      "doi": "10.1016/j.slasd.2025.100267"
+    },
+    {
+      "year": 2025,
+      "title": "Discovery of CA9–005 as a new carbonic anhydrase 9 inhibitor using a DNA encoded-libraries",
+      "authors": "Ju Ho Lee, Sung Bum Park, Byumseok Koh, Jiwoo Kim, Kyoung Jin Choi, Jeonghui Im, Byungho Lim, Daesoo Kim, Byungwook Lee, Sunjong Yu, <b>Nam-Chul Cho</b>, Doyoun Kim, <b>Yuno Lee</b>, et al.",
+      "venue": "Results in Chemistry",
+      "detail": "102455",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211715625004382"
+    },
+    {
+      "year": 2024,
+      "title": "Water Hydrogen-Bond Mediated Layer by Layer Alignment of Lipid Rafts as a Precursor of Intermembrane Processes",
+      "authors": "Suho Lee, Ji Hyun Bak, <b>Yuno Lee</b>, Dae-Woong Jeong, Jaehee Lee, KeunMin Ken Lee, Hasaeam Cho, Hyun Hwi Lee, Changbong Hyeon, Myung Chul Choi",
+      "venue": "Journal of the American Chemical Society",
+      "detail": "146, 13846–13853",
+      "doi": "10.1021/jacs.4c00544"
+    },
+    {
+      "year": 2024,
+      "title": "Discovery of Antimicrobial Agents Based on Structural and Functional Study of the Klebsiella pneumoniae MazEF Toxin–Antitoxin System",
+      "authors": "Chenglong Jin, Sung-Min Kang, Do-Hee Kim, <b>Yuno Lee</b>, Bong-Jin Lee",
+      "venue": "Antibiotics",
+      "detail": "13, 398",
+      "doi": "10.3390/antibiotics13050398"
+    },
+    {
+      "year": 2024,
+      "title": "Comparative crystal structure analysis of the human EP300 and CBP KIX domains",
+      "authors": "Sang Eun Cho, <b>Yuno Lee</b>, Ji-In Kim, Kwan-Young Jung, Hyeongseop Jeong, Hyun Woo Park, Byung Il Lee",
+      "venue": "Biochemical and Biophysical Research Communications",
+      "detail": "741, 151064",
+      "doi": "10.1016/j.bbrc.2024.151064"
+    },
+    {
+      "year": 2023,
+      "title": "Discovery of GABA Aminotransferase Inhibitors via Molecular Docking, Molecular Dynamic Simulation, and Biological Evaluation",
+      "authors": "Muhammad Yasir, Jinyoung Park, <b>Yuno Lee</b>, Eun-Taek Han, Won Sun Park, Jin-Hee Han, Yong-Soo Kwon, Hee-Jae Lee, Wanjoo Chun",
+      "venue": "International Journal of Molecular Sciences",
+      "detail": "24, 16990",
+      "doi": "10.3390/ijms242316990"
+    },
+    {
+      "year": 2022,
+      "title": "AIMP2-DX2 provides therapeutic interface to control KRAS-driven tumorigenesis",
+      "authors": "Dae Gyu Kim, Yongseok Choi, <b>Yuno Lee</b>, Semi Lim, Jiwon Kong, JaeHa Song, Younah Roh, Dipesh S. Harmalkar, Kwanshik Lee, Ja-il Goo, et al.",
+      "venue": "Nature Communications",
+      "detail": "13, 2572",
+      "doi": "10.1038/s41467-022-30149-2"
+    },
+    {
+      "year": 2022,
+      "title": "DCLK1 promotes colorectal cancer stemness and aggressiveness via the XRCC5/COX2 axis",
+      "authors": "Jee-Heun Kim, So-Yeon Park, So-El Jeon, Jang-Hyun Choi, Choong-Jae Lee, Tae-Young Jang, Hyeon-Ji Yun, <b>Yuno Lee</b>, Pilho Kim, Sang Hee Cho, et al.",
+      "venue": "Theranostics",
+      "detail": "12, 5258–5271",
+      "doi": "10.7150/thno.72037"
+    },
+    {
+      "year": 2022,
+      "title": "Discovery of GSK3β Inhibitors through In Silico Prediction-and-Experiment Cycling Strategy, and Biological Evaluation",
+      "authors": "<b>Yuno Lee</b>, Sae-Bom Yoon, Hyowon Hong, Hyun Young Kim, Daeyoung Jung, Byoung-San Moon, Woo-Kyu Park, Sunkyung Lee, Hyukjin Kwon, Jihyeong Park, et al.",
+      "venue": "Molecules",
+      "detail": "27, 3825",
+      "doi": "10.3390/molecules27123825"
+    },
+    {
+      "year": 2022,
+      "title": "Discovery of Mycobacterium tuberculosis Rv3364c-Derived Small Molecules as Potential Therapeutic Agents to Target SNX9 for Sepsis",
+      "authors": "Daeun Lee, Eunbi Lee, Sein Jang, Kyungmin Kim, Euni Cho, Seok-Jun Mun, Wooic Son, Hye-In Jeon, Hyo Keun Kim, Young Jin Jeong, et al.",
+      "venue": "Journal of Medicinal Chemistry",
+      "detail": "65, 386–408",
+      "doi": "10.1021/acs.jmedchem.1c01551"
+    },
+    {
+      "year": 2021,
+      "title": "Allosteric Inhibition of the Tumor-Promoting Interaction between Exon 2–Depleted Splice Variant of Aminoacyl–Transfer RNA Synthetase-Interacting Multifunctional Protein 2 and Heat Shock Protein 70",
+      "authors": "Dae Gyu Kim, Srigouri Huddar, Semi Lim, Jiwon Kong, <b>Yuno Lee</b>, Chul Min Park, Seungbeom Lee, Young-Ger Suh, Minkyoung Kim, Kyeong Lee, et al.",
+      "venue": "Journal of Pharmacology and Experimental Therapeutics",
+      "detail": "379, 358–371",
+      "doi": "10.1124/jpet.121.000766"
+    },
+    {
+      "year": 2021,
+      "title": "Novel QSAR Models for Molecular Initiating Event Modeling in Two Intersecting Adverse Outcome Pathways Based Pulmonary Fibrosis Prediction for Biocidal Mixtures",
+      "authors": "Myungwon Seo, Chong Hak Chae, <b>Yuno Lee</b>, Ha Ryong Kim, Jongwoon Kim",
+      "venue": "Toxics",
+      "detail": "9, 59",
+      "doi": "10.3390/toxics9030059"
+    },
+    {
+      "year": 2020,
+      "title": "Structural and Functional Study of the Klebsiella pneumoniae VapBC Toxin–Antitoxin System, Including the Development of an Inhibitor That Activates VapC",
+      "authors": "Sung-Min Kang, Chenglong Jin, Do-Hee Kim, <b>Yuno Lee</b>, Bong-Jin Lee",
+      "venue": "Journal of Medicinal Chemistry",
+      "detail": "63, 13669–13679",
+      "doi": "10.1021/acs.jmedchem.0c01118"
+    },
+    {
+      "year": 2020,
+      "title": "In silico screening of GABA aminotransferase inhibitors from the constituents of Valeriana officinalis by molecular docking and molecular dynamics simulation study",
+      "authors": "Jin-Young Park, <b>Yuno Lee</b>, Hee Jae Lee, Yong-Soo Kwon, Wanjoo Chun",
+      "venue": "Journal of Molecular Modeling",
+      "detail": "26, 228",
+      "doi": "10.1007/s00894-020-04495-1"
+    },
+    {
+      "year": 2018,
+      "title": "Dynamic coordination of two-metal-ions orchestrates λ-exonuclease catalysis",
+      "authors": "Wonseok Hwang, Jungmin Yoo, <b>Yuno Lee</b>, Suyeon Park, Phuong Lien Hoang, HyeokJin Cho, Jeongmin Yu, Thi Minh Hoa Vo, Minsang Shin, Mi Sun Jin, et al.",
+      "venue": "Nature Communications",
+      "detail": "9, 4404",
+      "doi": "10.1038/s41467-018-06750-9"
+    },
+    {
+      "year": 2018,
+      "title": "Oligomer Formation Propensities of Dimeric Bundle Peptides Correlate with Cell Penetration Abilities",
+      "authors": "Soonsil Hyun, <b>Yuno Lee</b>, Sun Mi Jin, Jane Cho, Jeemin Park, Changbong Hyeon, Key-Sun Kim, Yan Lee, Jaehoon Yu",
+      "venue": "ACS Central Science",
+      "detail": "4, 885–893",
+      "doi": "10.1021/acscentsci.8b00262"
+    },
+    {
+      "year": 2018,
+      "title": "Electrostatically Controlled Domain Size and Alignment in Phase Separated Lipid Multilayers",
+      "authors": "Suho Lee, <b>Yuno Lee</b>, Ji Hyun Bak, Dae-Woong Jeong, Jae-heui Lee, Hyun Hwi Lee, Changbong Hyeon, Myung Chul Choi",
+      "venue": "Biophysical Journal",
+      "detail": "114, 273a",
+      "note": "학회 초록 / Conference abstract"
+    },
+    {
+      "year": 2018,
+      "title": "Out-of-plane alignment and in-plane growth of domain in lipid multilayer upon surface ion binding",
+      "authors": "Suho Lee, <b>Yuno Lee</b>, Ji Hyun Bak, Dae-Woong Jeong, Jahee Lee, Hyun Hwi Lee, Changbong Hyeon, Myung Chul Choi",
+      "venue": "Abstracts of Papers of the American Chemical Society",
+      "detail": "255",
+      "note": "학회 초록 / Conference abstract"
     }
   ]
 }
