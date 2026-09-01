@@ -2,7 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - claude/web-platform-prototype-testing-vkatpr
   workflow_dispatch:
 
 permissions:
@@ -22,10 +24,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      # enablement: true 로 저장소의 Pages 설정을 자동으로 켭니다
+      # (Settings > Pages 에서 수동으로 켤 필요가 없습니다)
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
       - id: deployment
         uses: actions/deploy-pages@v4
