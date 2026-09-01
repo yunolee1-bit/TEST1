@@ -252,6 +252,26 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
   margin:0;padding:28px 26px;border:1px dashed var(--line);border-radius:var(--radius);
   color:var(--muted);font-size:.95rem;background:var(--surface);
 }
+.authors b{color:var(--ink);font-weight:700}
+
+/* 이전 연도 논문 펼치기 / 접기 */
+.pub-toggle{
+  display:inline-flex;align-items:center;gap:8px;font-family:var(--font);
+  font-size:.88rem;font-weight:700;color:var(--brand-2);
+  background:var(--surface);border:1px solid var(--line);border-radius:999px;
+  padding:11px 22px;cursor:pointer;transition:border-color .15s,background .15s;
+}
+.pub-toggle:hover{border-color:var(--brand-2);background:var(--brand-soft)}
+.pub-toggle::after{
+  content:"";width:7px;height:7px;margin-left:2px;
+  border-right:2px solid currentColor;border-bottom:2px solid currentColor;
+  transform:translateY(-2px) rotate(45deg);transition:transform .2s;
+}
+.pub-toggle[aria-expanded="true"]::after{transform:translateY(1px) rotate(-135deg)}
+.pub-toggle .pub-toggle-close{display:none}
+.pub-toggle[aria-expanded="true"] .pub-toggle-open{display:none}
+.pub-toggle[aria-expanded="true"] .pub-toggle-close{display:inline}
+.pub-older{margin-top:30px;padding-top:6px;border-top:1px solid var(--line)}
 
 /* join */
 .join{display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:start}
@@ -285,6 +305,14 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
 .contact dt{
   font-size:.76rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
   color:var(--muted);white-space:nowrap;
+}
+/* 사람 이름 행은 대문자 변환 없이 본문 색으로 */
+.contact dt.dt-person{
+  font-size:.92rem;font-weight:700;letter-spacing:-.01em;text-transform:none;color:var(--ink);
+}
+.contact dt.dt-person em{
+  display:block;font-style:normal;font-size:.74rem;font-weight:500;
+  color:var(--muted);letter-spacing:0;margin-top:1px;
 }
 .contact dd{margin:0;color:var(--ink-soft);font-size:.95rem}
 .map-note p{margin:0 0 20px;color:var(--ink-soft);font-size:.95rem}

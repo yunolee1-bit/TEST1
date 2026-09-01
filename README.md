@@ -11,6 +11,7 @@ index.html                  # 페이지 전체 (모든 텍스트가 여기에 �
 assets/css/style.css        # 디자인 · 색상 · 반응형
 assets/js/main.js           # 한/영 전환, 모바일 메뉴, 스크롤 효과
 assets/img/                 # 구성원 사진 등 이미지
+assets/data/publications.json  # 논문 목록 (여기만 고치면 화면에 반영됩니다)
 .github/workflows/pages.yml # main 브랜치 push 시 자동 배포
 ```
 
@@ -48,8 +49,29 @@ python3 -m http.server 8000
 | `#research` | 4개 연구 분야(생성형 신약 설계 / 활성·ADMET 예측 / 자율 실험 폐루프 / 구조 기반 설계) — 실제 연구 주제에 맞게 수정 |
 | `#people` | 세 분의 정확한 직위, 연구 키워드, 이메일, 프로필 링크 |
 | `#people` 하단 | 박사후연구원 · 대학원생 명단 |
-| `#publications` | 실제 논문 목록 (연도별 `.pub-year` 블록 복사해서 추가) |
+| `#publications` | `assets/data/publications.json` 을 수정 (HTML 수정 불필요) |
 | `#contact` | 동/호실, 전화번호, 이메일 |
+
+### 논문 추가하기
+
+`assets/data/publications.json` 의 `publications` 배열에 항목을 넣기만 하면 됩니다.
+순서는 상관없고 연도별로 자동 정렬됩니다.
+
+```json
+{
+  "year": 2026,
+  "authors": "Author A, Author B, <b>Yuno Lee</b>*",
+  "title": "논문 제목",
+  "venue": "Journal Name",
+  "detail": "17, 139",
+  "doi": "10.1186/s13321-025-01047-8"
+}
+```
+
+- `authors` 안에서 `<b>이름</b>` 으로 감싸면 우리 연구실 저자가 굵게 표시됩니다
+- `doi` 는 번호만 넣으면 `https://doi.org/...` 링크가 자동 생성됩니다. DOI가 없으면 `url` 사용
+- 최근 `recentYears` (기본 2) 개 연도는 펼쳐지고, 그보다 오래된 연도는
+  "이전 논문 N편 펼치기" 버튼으로 접힙니다. 이 값도 같은 파일에서 조정합니다
 
 ### 구성원 사진 넣기
 

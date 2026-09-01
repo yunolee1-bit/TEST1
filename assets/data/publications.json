@@ -1,0 +1,21 @@
+{
+  "_readme": [
+    "논문을 추가하려면 아래 publications 배열에 항목을 넣으세요. 순서는 상관없습니다 (연도별로 자동 정렬).",
+    "필수: year, title.  선택: authors, venue, detail, doi, url, note",
+    "authors 안에서 우리 연구실 저자는 <b>이름</b> 으로 감싸면 굵게 표시됩니다.",
+    "doi 는 번호만 넣으면 됩니다 (예: 10.1186/s13321-025-01047-8).",
+    "화면에는 최근 2개 연도가 펼쳐지고, 그보다 오래된 연도는 '이전 논문 보기'로 접힙니다.",
+    "이 _readme 키는 화면에 표시되지 않습니다."
+  ],
+  "recentYears": 2,
+  "publications": [
+    {
+      "year": 2025,
+      "authors": "<b>Nam-Chul Cho</b>, et al.",
+      "title": "The first South Korean data challenge for drug discovery using human and mouse liver microsomal stability data",
+      "venue": "Journal of Cheminformatics",
+      "detail": "17, 139",
+      "doi": "10.1186/s13321-025-01047-8"
+    }
+  ]
+}
