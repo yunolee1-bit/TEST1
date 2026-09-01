@@ -25,11 +25,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # enablement: true 로 저장소의 Pages 설정을 자동으로 켭니다
-      # (Settings > Pages 에서 수동으로 켤 필요가 없습니다)
+      # 주의: Pages 는 저장소 Settings > Pages 에서 Source 를 "GitHub Actions" 로
+      # 한 번 설정해 주어야 합니다. GITHUB_TOKEN 으로는 자동 활성화가 불가능합니다.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3

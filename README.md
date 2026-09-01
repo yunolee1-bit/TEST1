@@ -13,13 +13,22 @@ assets/img/                 # 구성원 사진 등 이미지
 .github/workflows/pages.yml # main 브랜치 push 시 자동 배포
 ```
 
-## 배포 (최초 1회 설정)
+## 배포 (최초 1회 설정 — 반드시 수동으로 해야 합니다)
+
+GitHub Pages는 저장소 관리자가 UI에서 한 번 켜 주어야 합니다.
+Actions의 `GITHUB_TOKEN`으로는 자동 활성화가 되지 않습니다
+(`Create Pages site failed: Resource not accessible by integration`).
 
 1. 저장소 **Settings → Pages** 이동
-2. **Source** 를 `GitHub Actions` 로 선택
-3. `main` 브랜치에 push하면 자동 배포됩니다
+2. **Source** 를 `GitHub Actions` 로 선택 (`Deploy from a branch` 아님)
+3. 이후 기본 브랜치에 push하면 워크플로가 자동 배포합니다
+   - 바로 배포하려면 **Actions → Deploy to GitHub Pages → Run workflow**
 
 배포 주소: **https://yunolee1-bit.github.io/TEST1/**
+
+> 참고: 이 저장소에는 `main` 브랜치가 없습니다. 빈 저장소에 처음 push한
+> `claude/web-platform-prototype-testing-vkatpr` 가 기본 브랜치입니다.
+> 워크플로는 이 브랜치와 `main` 양쪽에서 동작합니다.
 
 ## 로컬에서 미리보기
 
