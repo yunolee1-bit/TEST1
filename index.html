@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 분자모델링 · 화학정보학 연구실 | 한국화학연구원 KRICT</title>
+<meta name="description" content="한국화학연구원(KRICT) AI 분자모델링·화학정보학 연구실. 인공지능 기반 분자 설계, 물성 예측, 화학정보학 연구를 수행하며 UST-KRICT 스쿨 대학원생을 모집합니다.">
+<meta property="og:title" content="AI 분자모델링 · 화학정보학 연구실 | KRICT">
+<meta property="og:description" content="한국화학연구원 AI 분자모델링·화학정보학 연구실 홈페이지">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='7' r='4' fill='%231d8fa3'/%3E%3Ccircle cx='7' cy='24' r='4' fill='%230e4f5c'/%3E%3Ccircle cx='25' cy='24' r='4' fill='%230e4f5c'/%3E%3Cpath d='M16 7L7 24M16 7l9 17M7 24h18' stroke='%231d8fa3' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main"><span data-lang="ko">본문 바로가기</span><span data-lang="en">Skip to content</span></a>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="7" r="3.6"/><circle cx="7" cy="24" r="3.6"/><circle cx="25" cy="24" r="3.6"/>
+        <path d="M16 7L7 24M16 7l9 17M7 24h18"/>
+      </svg>
+      <span class="brand-text">
+        <strong data-lang="ko">AI 분자모델링 · 화학정보학 연구실</strong>
+        <strong data-lang="en">AI Molecular Modeling &amp; Cheminformatics Lab</strong>
+        <em data-lang="ko">한국화학연구원 KRICT</em>
+        <em data-lang="en">Korea Research Institute of Chemical Technology</em>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="주 메뉴">
+      <a href="#about"><span data-lang="ko">연구실 소개</span><span data-lang="en">About</span></a>
+      <a href="#research"><span data-lang="ko">연구 분야</span><span data-lang="en">Research</span></a>
+      <a href="#people"><span data-lang="ko">구성원</span><span data-lang="en">People</span></a>
+      <a href="#publications"><span data-lang="ko">연구 성과</span><span data-lang="en">Publications</span></a>
+      <a href="#join"><span data-lang="ko">대학원 모집</span><span data-lang="en">Join Us</span></a>
+      <a href="#contact"><span data-lang="ko">오시는 길</span><span data-lang="en">Contact</span></a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="언어 전환 / Switch language">
+        <span data-lang="ko">EN</span><span data-lang="en">KO</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <svg class="hero-bg" viewBox="0 0 1200 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g class="mol">
+      <path d="M120 480 L240 380 L390 430 L520 320 L660 360 L780 240 L930 300 L1070 200"/>
+      <path d="M240 380 L280 220 L420 150 L520 320"/>
+      <path d="M660 360 L620 520 L760 560 L780 240"/>
+      <path d="M930 300 L1000 460 L1140 420"/>
+      <path d="M420 150 L560 90 L700 130 L780 240"/>
+      <circle cx="120" cy="480" r="7"/><circle cx="240" cy="380" r="10"/><circle cx="390" cy="430" r="6"/>
+      <circle cx="520" cy="320" r="11"/><circle cx="660" cy="360" r="8"/><circle cx="780" cy="240" r="12"/>
+      <circle cx="930" cy="300" r="8"/><circle cx="1070" cy="200" r="7"/><circle cx="280" cy="220" r="7"/>
+      <circle cx="420" cy="150" r="9"/><circle cx="620" cy="520" r="7"/><circle cx="760" cy="560" r="6"/>
+      <circle cx="1000" cy="460" r="8"/><circle cx="1140" cy="420" r="6"/><circle cx="560" cy="90" r="7"/>
+      <circle cx="700" cy="130" r="6"/>
+    </g>
+  </svg>
+
+  <div class="hero-inner">
+    <p class="eyebrow">
+      <span data-lang="ko">한국화학연구원 · UST-KRICT 스쿨</span>
+      <span data-lang="en">KRICT · UST-KRICT School</span>
+    </p>
+    <h1>
+      <span data-lang="ko">AI 분자모델링<br>화학정보학 연구실</span>
+      <span data-lang="en">AI Molecular Modeling<br>&amp; Cheminformatics Lab</span>
+    </h1>
+    <p class="hero-lead">
+      <span data-lang="ko">인공지능과 계산화학을 결합해 새로운 분자를 설계하고, 물성을 예측하며,
+        화학 데이터를 지식으로 바꾸는 연구를 합니다.</span>
+      <span data-lang="en">We combine artificial intelligence with computational chemistry to design new molecules,
+        predict their properties, and turn chemical data into knowledge.</span>
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#research">
+        <span data-lang="ko">연구 분야 보기</span><span data-lang="en">Explore Research</span>
+      </a>
+      <a class="btn btn-ghost" href="#join">
+        <span data-lang="ko">대학원생 모집 안내</span><span data-lang="en">Join Our Lab</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="sec-eyebrow"><span data-lang="ko">연구실 소개</span><span data-lang="en">About</span></p>
+      <h2><span data-lang="ko">데이터와 시뮬레이션으로 화학을 앞당깁니다</span>
+          <span data-lang="en">Accelerating chemistry with data and simulation</span></h2>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <!-- TODO: 연구실 실제 소개 문구로 교체하세요 -->
+        <p><span data-lang="ko">본 연구실은 한국화학연구원(KRICT)에 소속되어 있으며, 인공지능·분자모델링·화학정보학이
+          교차하는 영역에서 연구를 수행합니다. 양자화학 계산과 분자동역학 시뮬레이션으로 생성한 물리 기반 데이터와,
+          문헌·실험에서 축적된 대규모 화학 데이터를 함께 학습시켜 신뢰할 수 있는 예측 모델을 만듭니다.</span>
+        <span data-lang="en">Based at the Korea Research Institute of Chemical Technology (KRICT), our group works at the
+          intersection of artificial intelligence, molecular modeling, and cheminformatics. We train predictive models on
+          physics-based data from quantum chemistry and molecular dynamics together with large-scale chemical data curated
+          from literature and experiment.</span></p>
+
+        <p><span data-lang="ko">궁극적인 목표는 <strong>실험실에서 실제로 검증되는 예측</strong>입니다. 계산 결과가 논문
+          안에 머무르지 않고 합성 가능한 후보 물질과 실험 계획으로 이어지도록, 실험 연구그룹과 긴밀히 협력합니다.</span>
+        <span data-lang="en">Our goal is <strong>prediction that survives the laboratory</strong>. We work closely with
+          experimental groups so that computational results lead to synthesizable candidates and concrete experimental
+          plans rather than staying on paper.</span></p>
+
+        <p><span data-lang="ko">또한 <strong>UST-KRICT 스쿨</strong>의 학위 과정을 통해 석·박사 과정 대학원생을 지도하며,
+          계산화학과 기계학습을 모두 다룰 수 있는 연구자를 양성합니다.</span>
+        <span data-lang="en">Through the <strong>UST-KRICT School</strong>, we supervise M.S. and Ph.D. students and train
+          researchers fluent in both computational chemistry and machine learning.</span></p>
+      </div>
+
+      <ul class="stats">
+        <!-- TODO: 실제 수치로 교체하세요 -->
+        <li><strong>3</strong><span data-lang="ko">연구책임자</span><span data-lang="en">Principal Investigators</span></li>
+        <li><strong>—</strong><span data-lang="ko">재학 대학원생</span><span data-lang="en">Graduate Students</span></li>
+        <li><strong>—</strong><span data-lang="ko">SCI 논문</span><span data-lang="en">SCI Publications</span></li>
+        <li><strong>—</strong><span data-lang="ko">진행 과제</span><span data-lang="en">Active Projects</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH ============ -->
+<section class="section section-alt" id="research">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="sec-eyebrow"><span data-lang="ko">연구 분야</span><span data-lang="en">Research</span></p>
+      <h2><span data-lang="ko">네 가지 축으로 연구합니다</span><span data-lang="en">Four research directions</span></h2>
+    </header>
+
+    <div class="cards">
+      <article class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="5" r="2.4"/><circle cx="5" cy="17" r="2.4"/><circle cx="19" cy="17" r="2.4"/>
+          <path d="M12 5L5 17M12 5l7 12M5 17h14"/>
+        </svg>
+        <h3><span data-lang="ko">AI 기반 분자 설계</span><span data-lang="en">AI-Driven Molecular Design</span></h3>
+        <p><span data-lang="ko">생성 모델과 강화학습으로 목표 물성을 만족하는 신규 분자 구조를 탐색합니다.
+          역설계(inverse design)를 통해 방대한 화학 공간에서 후보를 좁혀 갑니다.</span>
+        <span data-lang="en">We search chemical space for novel structures that meet target properties using generative
+          models and reinforcement learning, narrowing candidates through inverse design.</span></p>
+      </article>
+
+      <article class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 19V5M3 19h18"/><path d="M6 15l4-5 3.5 3L20 6"/><circle cx="10" cy="10" r="1.6"/><circle cx="13.5" cy="13" r="1.6"/>
+        </svg>
+        <h3><span data-lang="ko">물성 예측 모델</span><span data-lang="en">Property Prediction</span></h3>
+        <p><span data-lang="ko">그래프 신경망(GNN)과 트랜스포머 기반 분자 표현 학습으로 반응성, 안정성, 독성 등
+          다양한 물성을 예측하고 불확실성까지 함께 정량화합니다.</span>
+        <span data-lang="en">Graph neural networks and transformer-based molecular representations predict reactivity,
+          stability, and toxicity — with calibrated uncertainty alongside every prediction.</span></p>
+      </article>
+
+      <article class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="4" rx="1.2"/><rect x="3" y="10" width="18" height="4" rx="1.2"/>
+          <rect x="3" y="16" width="11" height="4" rx="1.2"/>
+        </svg>
+        <h3><span data-lang="ko">화학정보학 · 데이터 인프라</span><span data-lang="en">Cheminformatics &amp; Data</span></h3>
+        <p><span data-lang="ko">문헌과 실험 기록에서 화학 정보를 추출·정제하고, 재현 가능한 데이터베이스와
+          워크플로를 구축합니다. 좋은 모델은 좋은 데이터에서 시작합니다.</span>
+        <span data-lang="en">We extract and curate chemical information from literature and experimental records, building
+          reproducible databases and workflows. Good models start with good data.</span></p>
+      </article>
+
+      <article class="card">
+        <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.2"/><ellipse cx="12" cy="12" rx="8.2" ry="3.4"/><path d="M12 3.8v16.4"/>
+        </svg>
+        <h3><span data-lang="ko">계산화학 시뮬레이션</span><span data-lang="en">Computational Chemistry</span></h3>
+        <p><span data-lang="ko">DFT 양자화학 계산과 분자동역학 시뮬레이션으로 반응 메커니즘과 분자 거동을 규명하고,
+          기계학습 원자간 퍼텐셜(MLIP)로 계산 규모를 확장합니다.</span>
+        <span data-lang="en">DFT and molecular dynamics reveal reaction mechanisms and molecular behavior, while machine-learned
+          interatomic potentials extend simulations to larger scales and longer timescales.</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PEOPLE ============ -->
+<section class="section" id="people">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="sec-eyebrow"><span data-lang="ko">구성원</span><span data-lang="en">People</span></p>
+      <h2><span data-lang="ko">연구책임자</span><span data-lang="en">Principal Investigators</span></h2>
+    </header>
+
+    <!-- TODO: 직위·연구 키워드·이메일·프로필 링크를 실제 정보로 교체하세요.
+         사진을 넣으려면 assets/img/ 에 파일을 두고 아래 .avatar 를
+         <img class="avatar-img" src="assets/img/파일명.jpg" alt="이름"> 으로 바꾸면 됩니다. -->
+    <div class="people">
+
+      <article class="person">
+        <div class="avatar" aria-hidden="true">조</div>
+        <h3><span data-lang="ko">조남철</span><span data-lang="en">Namchul Cho</span>
+          <em data-lang="ko">Ph.D.</em><em data-lang="en">Ph.D.</em></h3>
+        <p class="role">
+          <span data-lang="ko">한국화학연구원 책임연구원<br>UST-KRICT 스쿨 교수</span>
+          <span data-lang="en">Principal Researcher, KRICT<br>Professor, UST-KRICT School</span>
+        </p>
+        <ul class="tags">
+          <li><span data-lang="ko">분자모델링</span><span data-lang="en">Molecular Modeling</span></li>
+          <li><span data-lang="ko">계산화학</span><span data-lang="en">Computational Chemistry</span></li>
+        </ul>
+        <p class="person-contact"><a href="mailto:이메일@krict.re.kr">이메일@krict.re.kr</a></p>
+      </article>
+
+      <article class="person">
+        <div class="avatar" aria-hidden="true">이</div>
+        <h3><span data-lang="ko">이윤호</span><span data-lang="en">Yunho Lee</span>
+          <em data-lang="ko">Ph.D.</em><em data-lang="en">Ph.D.</em></h3>
+        <p class="role">
+          <span data-lang="ko">한국화학연구원 책임연구원<br>UST-KRICT 스쿨 교수</span>
+          <span data-lang="en">Principal Researcher, KRICT<br>Professor, UST-KRICT School</span>
+        </p>
+        <ul class="tags">
+          <li><span data-lang="ko">기계학습</span><span data-lang="en">Machine Learning</span></li>
+          <li><span data-lang="ko">화학정보학</span><span data-lang="en">Cheminformatics</span></li>
+        </ul>
+        <p class="person-contact"><a href="mailto:이메일@krict.re.kr">이메일@krict.re.kr</a></p>
+      </article>
+
+      <article class="person">
+        <div class="avatar" aria-hidden="true">황</div>
+        <h3><span data-lang="ko">황슬기</span><span data-lang="en">Seulgi Hwang</span>
+          <em data-lang="ko">Ph.D.</em><em data-lang="en">Ph.D.</em></h3>
+        <p class="role">
+          <span data-lang="ko">한국화학연구원 책임연구원<br>UST-KRICT 스쿨 교수</span>
+          <span data-lang="en">Principal Researcher, KRICT<br>Professor, UST-KRICT School</span>
+        </p>
+        <ul class="tags">
+          <li><span data-lang="ko">물성 예측</span><span data-lang="en">Property Prediction</span></li>
+          <li><span data-lang="ko">데이터 사이언스</span><span data-lang="en">Data Science</span></li>
+        </ul>
+        <p class="person-contact"><a href="mailto:이메일@krict.re.kr">이메일@krict.re.kr</a></p>
+      </article>
+
+    </div>
+
+    <h3 class="sub-head"><span data-lang="ko">연구원 및 대학원생</span><span data-lang="en">Researchers &amp; Students</span></h3>
+    <!-- TODO: 구성원을 아래 형식으로 추가하세요 -->
+    <ul class="member-list">
+      <li>
+        <span class="m-name"><span data-lang="ko">구성원 이름</span><span data-lang="en">Member Name</span></span>
+        <span class="m-role"><span data-lang="ko">박사후연구원</span><span data-lang="en">Postdoctoral Researcher</span></span>
+      </li>
+      <li>
+        <span class="m-name"><span data-lang="ko">구성원 이름</span><span data-lang="en">Member Name</span></span>
+        <span class="m-role"><span data-lang="ko">박사과정 (UST-KRICT)</span><span data-lang="en">Ph.D. Student (UST-KRICT)</span></span>
+      </li>
+      <li>
+        <span class="m-name"><span data-lang="ko">구성원 이름</span><span data-lang="en">Member Name</span></span>
+        <span class="m-role"><span data-lang="ko">석사과정 (UST-KRICT)</span><span data-lang="en">M.S. Student (UST-KRICT)</span></span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section class="section section-alt" id="publications">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="sec-eyebrow"><span data-lang="ko">연구 성과</span><span data-lang="en">Publications</span></p>
+      <h2><span data-lang="ko">주요 논문</span><span data-lang="en">Selected Publications</span></h2>
+    </header>
+
+    <!-- TODO: 아래 항목을 실제 논문 정보로 교체하세요. 연도별로 .pub-year 블록을 추가하면 됩니다. -->
+    <div class="pub-year">
+      <h3>2026</h3>
+      <ol class="pubs">
+        <li>
+          <span class="authors">저자 1, 저자 2, 조남철*</span>
+          <span class="pub-title">논문 제목을 입력하세요</span>
+          <span class="venue"><em>Journal Name</em>, volume, pages (2026).</span>
+          <span class="links"><a href="#">DOI</a></span>
+        </li>
+        <li>
+          <span class="authors">저자 1, 이윤호*, 황슬기*</span>
+          <span class="pub-title">논문 제목을 입력하세요</span>
+          <span class="venue"><em>Journal Name</em>, volume, pages (2026).</span>
+          <span class="links"><a href="#">DOI</a></span>
+        </li>
+      </ol>
+    </div>
+
+    <div class="pub-year">
+      <h3>2025</h3>
+      <ol class="pubs">
+        <li>
+          <span class="authors">저자 1, 저자 2, 저자 3</span>
+          <span class="pub-title">논문 제목을 입력하세요</span>
+          <span class="venue"><em>Journal Name</em>, volume, pages (2025).</span>
+          <span class="links"><a href="#">DOI</a></span>
+        </li>
+      </ol>
+    </div>
+
+    <p class="note">
+      <span data-lang="ko">* 교신저자</span><span data-lang="en">* Corresponding author</span>
+    </p>
+  </div>
+</section>
+
+<!-- ============ JOIN ============ -->
+<section class="section" id="join">
+  <div class="wrap">
+    <div class="join">
+      <div class="join-text">
+        <p class="sec-eyebrow"><span data-lang="ko">대학원 모집</span><span data-lang="en">Join Us</span></p>
+        <h2><span data-lang="ko">UST-KRICT 스쿨에서 함께 연구할 학생을 찾습니다</span>
+            <span data-lang="en">We are recruiting students at the UST-KRICT School</span></h2>
+        <p><span data-lang="ko">UST(과학기술연합대학원대학교)-KRICT 스쿨은 한국화학연구원의 연구 현장에서 학위 과정을
+          밟는 제도입니다. 재학생은 연구원의 실험·계산 인프라를 활용하며 학생연구원으로서 지원을 받습니다.</span>
+        <span data-lang="en">The UST-KRICT School lets graduate students pursue their degrees inside KRICT's research
+          environment, with access to institute-scale computing and experimental facilities and financial support as
+          student researchers.</span></p>
+
+        <ul class="check">
+          <li><span data-lang="ko">화학, 화학공학, 재료, 물리, 컴퓨터과학 등 전공 무관하게 지원할 수 있습니다.</span>
+              <span data-lang="en">Open to chemistry, chemical engineering, materials, physics, and computer science backgrounds.</span></li>
+          <li><span data-lang="ko">Python 프로그래밍 경험이나 계산화학 수강 경험이 있으면 좋지만 필수는 아닙니다.</span>
+              <span data-lang="en">Python experience or coursework in computational chemistry helps, but is not required.</span></li>
+          <li><span data-lang="ko">학부 인턴 및 박사후연구원 지원도 상시 환영합니다.</span>
+              <span data-lang="en">Undergraduate interns and postdoctoral applicants are welcome year-round.</span></li>
+        </ul>
+
+        <p><span data-lang="ko">관심 있는 분은 이력서(CV)와 간단한 연구 관심사를 담아 아래 메일로 연락해 주세요.</span>
+           <span data-lang="en">Please email us your CV and a short note on your research interests.</span></p>
+
+        <a class="btn btn-primary" href="mailto:이메일@krict.re.kr">
+          <span data-lang="ko">지원 문의 메일 보내기</span><span data-lang="en">Email Us</span>
+        </a>
+      </div>
+
+      <aside class="join-side">
+        <h3><span data-lang="ko">모집 분야</span><span data-lang="en">Open Positions</span></h3>
+        <ul>
+          <li><strong data-lang="ko">석사과정</strong><strong data-lang="en">M.S. Student</strong>
+              <span data-lang="ko">UST-KRICT 스쿨</span><span data-lang="en">UST-KRICT School</span></li>
+          <li><strong data-lang="ko">박사과정</strong><strong data-lang="en">Ph.D. Student</strong>
+              <span data-lang="ko">UST-KRICT 스쿨</span><span data-lang="en">UST-KRICT School</span></li>
+          <li><strong data-lang="ko">박사후연구원</strong><strong data-lang="en">Postdoc</strong>
+              <span data-lang="ko">상시 모집</span><span data-lang="en">Year-round</span></li>
+          <li><strong data-lang="ko">학부 인턴</strong><strong data-lang="en">Undergraduate Intern</strong>
+              <span data-lang="ko">하계 · 동계</span><span data-lang="en">Summer &amp; Winter</span></li>
+        </ul>
+        <a class="side-link" href="https://www.ust.ac.kr" target="_blank" rel="noopener">
+          <span data-lang="ko">UST 입학 안내 바로가기 ↗</span><span data-lang="en">UST Admissions ↗</span>
+        </a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section-alt" id="contact">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="sec-eyebrow"><span data-lang="ko">오시는 길</span><span data-lang="en">Contact</span></p>
+      <h2><span data-lang="ko">연락처</span><span data-lang="en">Get in touch</span></h2>
+    </header>
+
+    <div class="contact">
+      <!-- TODO: 실제 동/호실, 전화번호, 이메일로 교체하세요 -->
+      <dl>
+        <dt><span data-lang="ko">주소</span><span data-lang="en">Address</span></dt>
+        <dd><span data-lang="ko">대전광역시 유성구 가정로 141, 한국화학연구원<br>○○동 ○○○호</span>
+            <span data-lang="en">141 Gajeong-ro, Yuseong-gu, Daejeon 34114, Republic of Korea<br>KRICT, Bldg. ○○, Room ○○○</span></dd>
+
+        <dt><span data-lang="ko">이메일</span><span data-lang="en">Email</span></dt>
+        <dd><a href="mailto:이메일@krict.re.kr">이메일@krict.re.kr</a></dd>
+
+        <dt><span data-lang="ko">전화</span><span data-lang="en">Phone</span></dt>
+        <dd>+82-42-860-0000</dd>
+
+        <dt><span data-lang="ko">기관</span><span data-lang="en">Institute</span></dt>
+        <dd><a href="https://www.krict.re.kr" target="_blank" rel="noopener">www.krict.re.kr ↗</a></dd>
+      </dl>
+
+      <div class="map-note">
+        <p><span data-lang="ko">한국화학연구원은 대전 대덕연구개발특구 내에 있습니다. KTX 대전역에서 차량으로 약 20분,
+          유성 시외버스터미널에서 약 10분 거리입니다.</span>
+        <span data-lang="en">KRICT is located in the Daedeok Innopolis research cluster in Daejeon — about 20 minutes by
+          car from Daejeon KTX Station and 10 minutes from Yuseong Bus Terminal.</span></p>
+        <a class="btn btn-ghost" href="https://map.naver.com/p/search/한국화학연구원" target="_blank" rel="noopener">
+          <span data-lang="ko">지도에서 보기 ↗</span><span data-lang="en">Open in Maps ↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p class="f-lab">
+      <span data-lang="ko">AI 분자모델링 · 화학정보학 연구실</span>
+      <span data-lang="en">AI Molecular Modeling &amp; Cheminformatics Lab</span>
+    </p>
+    <p class="f-org">
+      <span data-lang="ko">한국화학연구원 (KRICT) · UST-KRICT 스쿨</span>
+      <span data-lang="en">Korea Research Institute of Chemical Technology · UST-KRICT School</span>
+    </p>
+    <p class="f-copy">© <span id="year">2026</span> AI Molecular Modeling &amp; Cheminformatics Lab, KRICT.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
