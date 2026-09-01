@@ -1,4 +1,4 @@
-/* AI Molecular Modeling & Cheminformatics Lab — KRICT
+/* A2DL — AI Autonomous Drug Discovery Lab, KRICT
    Vanilla JS: language toggle, mobile menu, sticky nav, scroll spy. */
 (function () {
   'use strict';
