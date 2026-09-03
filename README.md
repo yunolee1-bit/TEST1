@@ -26,7 +26,13 @@ Actions의 `GITHUB_TOKEN`으로는 자동 활성화가 되지 않습니다
 3. 이후 기본 브랜치에 push하면 워크플로가 자동 배포합니다
    - 바로 배포하려면 **Actions → Deploy to GitHub Pages → Run workflow**
 
-배포 주소: **https://yunolee1-bit.github.io/TEST1/**
+배포 주소: **https://a2dl.chembank.org/**
+
+커스텀 도메인을 쓰므로 저장소 루트가 도메인 루트로 서비스됩니다.
+`https://yunolee1-bit.github.io/TEST1/` 로 들어오면 위 주소로 리디렉션됩니다.
+
+- DNS: `a2dl` CNAME -> `yunolee1-bit.github.io`
+- 저장소 루트의 `CNAME` 파일에 도메인이 들어 있습니다. **지우지 마세요.**
 
 > 참고: 이 저장소에는 `main` 브랜치가 없습니다. 빈 저장소에 처음 push한
 > `claude/web-platform-prototype-testing-vkatpr` 가 기본 브랜치입니다.
