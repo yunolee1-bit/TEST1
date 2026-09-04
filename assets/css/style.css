@@ -45,6 +45,8 @@ body{
   margin:0;background:var(--bg);color:var(--ink);
   font-family:var(--font);font-size:16px;line-height:1.75;
   -webkit-font-smoothing:antialiased;
+  /* 한국어는 단어(어절) 단위로만 줄바꿈하고, 넘칠 때만 강제로 끊습니다. */
+  word-break:keep-all;overflow-wrap:break-word;
 }
 img{max-width:100%;display:block}
 a{color:var(--brand-2);text-decoration:none}
@@ -314,6 +316,7 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
 /* 사람 이름 행은 대문자 변환 없이 본문 색으로 */
 .contact dt.dt-person{
   font-size:.92rem;font-weight:700;letter-spacing:-.01em;text-transform:none;color:var(--ink);
+  white-space:normal;          /* 직위가 길어도 줄바꿈되도록 (기본 dt 의 nowrap 해제) */
 }
 .contact dt.dt-person em{
   display:block;font-style:normal;font-size:.74rem;font-weight:500;
