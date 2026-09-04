@@ -203,11 +203,16 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
   width:92px;height:92px;border-radius:50%;margin:0 auto 18px;
 }
 .avatar{
+  position:relative;overflow:hidden;
   display:flex;align-items:center;justify-content:center;
   background:linear-gradient(145deg,var(--brand),var(--brand-2));
   color:#fff;font-size:2.1rem;font-weight:700;letter-spacing:-.02em;
 }
-.avatar-img{object-fit:cover;border:3px solid var(--brand-soft)}
+/* 사진이 있으면 이니셜 위를 덮고, 없으면 onerror 로 제거되어 이니셜이 남습니다. */
+.avatar .avatar-img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center 20%;border-radius:50%;
+}
 .person h3{font-size:1.18rem;font-weight:800;margin:0 0 6px}
 .person h3 em{font-style:normal;font-size:.8rem;font-weight:500;color:var(--muted);margin-left:6px}
 .role{margin:0 0 16px;font-size:.87rem;color:var(--ink-soft);line-height:1.6}

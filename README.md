@@ -81,16 +81,22 @@ python3 -m http.server 8000
 
 ### 구성원 사진 넣기
 
-1. 사진을 `assets/img/` 에 저장 (예: `assets/img/cho.jpg`, 정사각형 권장)
-2. `index.html` 에서 해당 부분을 교체
+`assets/img/` 에 아래 파일명으로 올리기만 하면 됩니다. HTML 수정은 필요 없습니다.
 
-```html
-<!-- 변경 전 -->
-<div class="avatar" aria-hidden="true">조</div>
+| 파일명 | 구성원 |
+|---|---|
+| `assets/img/cho.jpg` | 조남철 센터장 |
+| `assets/img/lee.jpg` | 이윤호 책임연구원 |
+| `assets/img/hwang.jpg` | 황슬기 선임연구원 |
+| `assets/img/seo.jpg` | 서명원 선임연구원 |
 
-<!-- 변경 후 -->
-<img class="avatar-img" src="assets/img/cho.jpg" alt="조남철 박사">
-```
+- 파일이 없으면 성씨 이니셜 원형 아바타가 대신 표시됩니다 (`onerror` 처리)
+- 정사각형 400x400px 내외 JPG 권장. 원형으로 잘리고, 얼굴이 위쪽에 오도록
+  `object-position: center 20%` 로 잡혀 있습니다
+- 확장자를 바꾸려면 `index.html` 의 `src="assets/img/....jpg"` 도 함께 수정하세요
+
+GitHub 웹에서 바로 올리려면:
+<https://github.com/yunolee1-bit/TEST1/upload/claude/web-platform-prototype-testing-vkatpr/assets/img>
 
 ### 한국어 / 영어
 
