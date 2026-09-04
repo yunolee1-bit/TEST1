@@ -194,7 +194,7 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
 .card p{margin:0;color:var(--ink-soft);font-size:.95rem}
 
 /* people */
-.people{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.people{display:grid;grid-template-columns:repeat(auto-fit,minmax(228px,1fr));gap:22px}
 .person{
   background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
   padding:30px 26px;text-align:center;box-shadow:var(--shadow);
@@ -329,7 +329,7 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
 @media (max-width:960px){
   .about-grid,.join,.contact{grid-template-columns:1fr;gap:34px}
   .join-side{position:static}
-  .people,.member-list{grid-template-columns:1fr 1fr}
+  .member-list{grid-template-columns:1fr 1fr}
 }
 @media (max-width:760px){
   html{scroll-padding-top:74px}
@@ -347,7 +347,7 @@ html[lang="en"] [data-lang="ko"]{display:none !important}
   .nav-links{flex:1 1 auto}
   .hero{padding:76px 0 84px}
   .section{padding:64px 0}
-  .cards,.people,.member-list,.stats{grid-template-columns:1fr}
+  .cards,.member-list,.stats{grid-template-columns:1fr}
   .contact dl{grid-template-columns:1fr;gap:4px 0}
   .contact dt{margin-top:14px}
   .hero-cta .btn{flex:1 1 100%;text-align:center}
