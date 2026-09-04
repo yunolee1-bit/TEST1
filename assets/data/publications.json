@@ -14,28 +14,32 @@
       "authors": "Lyoo H, Alpizar YA, Sablon C, Ropke T, Paulissen J, Rasulova M, Thys N, Yun CS, <b>Cho NC</b>, Dallmeier K, Leyssen P, Han SB, Neyts J, Thibaut HJ",
       "title": "A robust cell-based infection model for Rhinovirus C research and antiviral drug discovery",
       "venue": "npj Viruses",
-      "detail": "4, 34"
+      "detail": "4, 34",
+      "doi": "10.1038/s44298-026-00194-5"
     },
     {
       "year": 2026,
       "title": "Discovery of a new GLP-1 receptor agonist using DNA encoded-libraries and similarity search",
       "authors": "Lee JH, Kim DY, Jeon HJ, Park SB, Koh BS, Lim B, Kim D, Lee KA, Choi KJ, Kim SS, Kwon YJ, Lim JH, Jo JH, Park YJ, Yu SJ, <b>Cho NC</b>, Wan N, <b>Lee Y</b>, Kim HJ, Kim KY, Heo JN",
       "venue": "Results in Chemistry",
-      "detail": "103415"
+      "detail": "103415",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211715626003899"
     },
     {
       "year": 2026,
       "authors": "Choi KE, Pae AN, <b>Cho NC</b>",
       "title": "Mechanistic Insights into the Disaggregation of Amyloid-β Fibrils by EPPS via Replica-Exchange Molecular Dynamics Simulations",
       "venue": "Scientific Reports",
-      "detail": "16, 13034"
+      "detail": "16, 13034",
+      "doi": "10.1038/s41598-026-42391-5"
     },
     {
       "year": 2026,
       "authors": "Lee YS, Yoo YJ, Zhang M, Jin SH, Lee YR, Jin H, Doan TP, Kim SM, Choi SR, Park EJ, Na S, Lee YJ, Sun JW, Cho JH, <b>Cho NC</b>, Park SY, Oh WK",
       "title": "Targeting the senescence-autophagy axis via p16INK4a inhibition alleviates pulmonary fibrosis",
       "venue": "Signal Transduction and Targeted Therapy",
-      "detail": "11, 234"
+      "detail": "11, 234",
+      "doi": "10.1038/s41392-026-02730-4"
     },
     {
       "year": 2025,
@@ -58,7 +62,8 @@
       "authors": "Choi KE, Jang SH, Park WK, No KT, Koh HY, Pae AN, <b>Cho NC</b>",
       "title": "Structural Basis for D3/D4-Selective Antagonism of Piperazinylalkyl Pyrazole/Isoxazole Analogs",
       "venue": "Molecules",
-      "detail": "30, 3917"
+      "detail": "30, 3917",
+      "doi": "10.3390/molecules30193917"
     },
     {
       "year": 2025,
@@ -89,7 +94,8 @@
       "authors": "Cho CH, Sim WJ, <b>Cho NC</b>, Lim W",
       "title": "Structure-based virtual screening of natural compounds in preventing skin senescence: the role of epigallocatechin gallate in protein kinase C alpha-specific inhibition against UV-induced photoaging",
       "venue": "Heliyon",
-      "detail": "10, e39933"
+      "detail": "10, e39933",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844024159646"
     },
     {
       "year": 2024,
@@ -112,7 +118,8 @@
       "authors": "Ham YW, <b>Cho NC</b>, Kim DY, Kim JH, Jo MJ, Jeong MS, Pak BY, Lee SH, Lee MK, Chi SW, Kim TD, Jeong NC, Cho SC",
       "title": "The SpACE-CCM: A facile and versatile cell culture medium-based biosensor for detection of SARS-CoV-2 spike-ACE2 interaction",
       "venue": "Biosensors and Bioelectronics",
-      "detail": "227, 115169"
+      "detail": "227, 115169",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0956566323001112"
     },
     {
       "year": 2022,
@@ -151,20 +158,23 @@
       "authors": "Suh JY, Kim DH, Kim SJ, <b>Cho NC</b>, Lee YH, Jang JH, Surh YJ",
       "title": "Nuclear Localization of Fibroblast Growth Factor Receptor 1 in Breast Cancer Cells Interacting with Cancer Associated Fibroblasts",
       "venue": "Journal of Cancer Prevention",
-      "detail": "30, 68-76"
+      "detail": "30, 68-76",
+      "url": "https://www.jcpjournal.org/journal/view.html?uid=897&vmd=Full"
     },
     {
       "year": 2021,
       "authors": "Kim SJ, <b>Cho NC</b>, Han B, Kim K, Hahn YI, Kim KP, Suh YG, Choi BY, Na HK, Surh YJ",
       "title": "15-Deoxy-Δ12,14-prostaglandin J2 binds and inactivates STAT3 via covalent modification of cysteine 259 in H-Ras transformed human breast epithelial cells",
-      "venue": "FEBS Letters"
+      "venue": "FEBS Letters",
+      "doi": "10.1002/1873-3468.14040"
     },
     {
       "year": 2021,
       "authors": "Park SY, Kim JY, Jang GB, Choi JH, Kim JH, Lee CJ, Lee S, Baek JH, Park KK, Kim JM, Chang HJ, <b>Cho NC</b>, Nam JS",
       "title": "Aberrant activation of the CD45-Wnt signaling axis promotes stemness and therapy resistance in colorectal cancer cells",
       "venue": "Theranostics",
-      "detail": "11, 8755-8770"
+      "detail": "11, 8755-8770",
+      "doi": "10.7150/thno.63446"
     },
     {
       "year": 2021,
@@ -179,7 +189,8 @@
       "authors": "Kim SJ, Saeidi S, <b>Cho NC</b>, Kim SH, Lee HB, Han W, Noh DY, Surh YJ",
       "title": "Interaction of Nrf2 with dimeric STAT3 induces IL-23 expression: Implications for breast cancer progression",
       "venue": "Cancer Letters",
-      "detail": "500, 147-160"
+      "detail": "500, 147-160",
+      "doi": "10.1016/j.canlet.2020.11.047"
     },
     {
       "year": 2021,
@@ -194,28 +205,32 @@
       "authors": "Kim SJ, <b>Cho NC</b>, Hahn YI, Kim SH, Fang X, Surh YJ",
       "title": "STAT3 as a Potential Target for Tumor Suppressive Effects of 15-Deoxy-Δ12,14-prostaglandin J2 in Triple Negative Breast Cancer",
       "venue": "Journal of Cancer Prevention",
-      "detail": "26, 207-217"
+      "detail": "26, 207-217",
+      "url": "https://www.jcpjournal.org/journal/view.html?uid=875&vmd=Full"
     },
     {
       "year": 2020,
       "authors": "Jamil MU, Kim J, Yum HW, Kim SH, Kim SJ, Kim DH, <b>Cho NC</b>, Na HK, Surh YJ",
       "title": "17-Oxo-docosahexaenoic acid induces Nrf2-mediated expression of heme oxygenase-1 in mouse skin in vivo and in cultured murine epidermal cells",
       "venue": "Archives of Biochemistry and Biophysics",
-      "detail": "679, 108156"
+      "detail": "679, 108156",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003986119302905"
     },
     {
       "year": 2020,
       "authors": "Hong SJ, Kim JT, Kim SJ, <b>Cho NC</b>, Kim K, Lee S, Suh YG, Cho KC, Kim KP, Surh YJ",
       "title": "An Electrophilic Deguelin Analogue Inhibits STAT3 Signaling in H-Ras-Transformed Human Mammary Epithelial Cells: The Cysteine 259 Residue as a Potential Target",
       "venue": "Biomedicines",
-      "detail": "8, 407"
+      "detail": "8, 407",
+      "doi": "10.3390/biomedicines8100407"
     },
     {
       "year": 2020,
       "authors": "Shin JW, Chun KS, Kim DH, Kim SJ, Kim SH, <b>Cho NC</b>, Na HK, Surh YJ",
       "title": "Curcumin induces stabilization of Nrf2 protein through Keap1 cysteine modification",
       "venue": "Biochemical Pharmacology",
-      "detail": "113820"
+      "detail": "113820",
+      "doi": "10.1016/j.bcp.2020.113820"
     },
     {
       "year": 2020,
@@ -238,7 +253,8 @@
       "authors": "More KN, Lee JY, Kim DY, <b>Cho NC</b>, Pyo A, Yun M, Kim HS, Kim H, Ko K, Park JH, Chang DJ",
       "title": "Acetazolamide-based [18F]-PET Tracer: In vivo Validation of Carbonic Anhydrase IX as a Sole Target for Imaging of CA-IX Expressing Hypoxic Solid Tumors",
       "venue": "Bioorganic & Medicinal Chemistry Letters",
-      "detail": "28, 915-921"
+      "detail": "28, 915-921",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0960894X18300714"
     },
     {
       "year": 2018,
@@ -277,49 +293,64 @@
       "authors": "El-Damasy AK, Seo SH, <b>Cho NC</b>, Pae AN, Kim EE, Keum G",
       "title": "Design and Synthesis of New 2-anilinoquinolines bearing N-methylpicolinamide Moiety as Potential Antiproliferative Agents",
       "venue": "Chemical Biology & Drug Design",
-      "detail": "89, 98-113"
+      "detail": "89, 98-113",
+      "doi": "10.1111/cbdd.12836"
     },
     {
       "year": 2017,
       "authors": "Oh SJ, Woo J, Lee YS, Cho M, Kim E, <b>Cho NC</b>, Park JY, Pae AN, Lee CJ, Hwang EM",
       "title": "Direct Interaction with 14-3-3γ Promotes Surface Expression of Best1 Channel in Astrocyte",
       "venue": "Molecular Brain",
-      "detail": "10, 51"
+      "detail": "10, 51",
+      "doi": "10.1186/s13041-017-0331-x"
     },
     {
       "year": 2016,
       "authors": "Ashraf ED, Lee JH, Seo SH, <b>Cho NC</b>, Pae AN, Keum GC",
       "title": "Design and Synthesis of New Potent Anticancer Benzothiazole Amides and Ureas Featuring Pyridylamide Moiety and Possessing Dual B-RafV600E and C-Raf Kinase Inhibitory Activities",
       "venue": "European Journal of Medicinal Chemistry",
-      "detail": "115, 201-216"
+      "detail": "115, 201-216",
+      "doi": "10.1016/j.ejmech.2016.02.039"
+    },
+    {
+      "year": 2016,
+      "authors": "Elkamhawy A, Park J, <b>Cho NC</b>, Sim T, Pae AN, Roh EJ",
+      "title": "Discovery of a Broad Spectrum Antiproliferative Agent with Super Selectivity for DDR1 kinase: Cell line-based Assay, Kinase panel, Molecular Docking and Toxicity Studies",
+      "venue": "Journal of Enzyme Inhibition and Medicinal Chemistry",
+      "detail": "31, 158-166",
+      "doi": "10.3109/14756366.2015.1004057"
     },
     {
       "year": 2016,
       "authors": "Ashraf ED, <b>Cho NC</b>, Nam G, Pae AN, Keum G",
       "title": "Discovery of a Nanomolar Multikinase Inhibitor (KST016366): A New Benzothiazole Derivative with Remarkable Broad-Spectrum Antiproliferative Activity",
       "venue": "ChemMedChem",
-      "detail": "11, 1587-1595"
+      "detail": "11, 1587-1595",
+      "doi": "10.1002/cmdc.201600224"
     },
     {
       "year": 2016,
       "authors": "Lee HG, <b>Cho NC</b>, Jeong AJ, Li YC, Rhie SJ, Choi JS, Lee KH, Kim Y, Kim YN, Kim MH, Pae AN, Ye SK, Kim BH",
       "title": "Immunomodulatory Activities of the Benzoxathiole Derivative BOT-4-one Ameliorate Pathogenic Skin Inflammation in Mice",
       "venue": "Journal of Investigative Dermatology",
-      "detail": "136, 107-116"
+      "detail": "136, 107-116",
+      "doi": "10.1038/JID.2015.384"
     },
     {
       "year": 2016,
       "authors": "Muthusamy S, Lee SM, Huang M, <b>Cho NC</b>, Nam G, Pae AN, Rhim H, Keum GC, Choi KI",
       "title": "Isoxazoline, Isoxazole, and Oxadiazole Derivatives as M1 Muscarinic Acetylcholine Receptor Agonists",
       "venue": "Bulletin of the Korean Chemical Society",
-      "detail": "37, 1020-1028"
+      "detail": "37, 1020-1028",
+      "doi": "10.1002/bkcs.10811"
     },
     {
       "year": 2016,
       "authors": "Ashraf ED, <b>Cho NC</b>, Pae AN, Kim EE, Keum GC",
       "title": "Novel 5-substituted-2-anilinoquinolines with 3-(morpholino or 4-methylpiperazin-1-yl)propoxy Moiety as Broad Spectrum Antiproliferative Agents: Synthesis, cell based assays and kinase screening",
       "venue": "Bioorganic & Medicinal Chemistry Letters",
-      "detail": "26, 3307-3312"
+      "detail": "26, 3307-3312",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0960894X16305327"
     },
     {
       "year": 2016,
@@ -334,28 +365,32 @@
       "authors": "<b>Cho NC</b>, Seo SH, Kim D, Shin JS, Ju J, Seong J, Seo SH, Lee I, Lee KT, Kim YK, No KT, Pae AN",
       "title": "Pharmacophore-based Virtual Screening, Biological Evaluation and Binding Mode Analysis of a Novel Protease-Activated Receptor 2 Antagonist",
       "venue": "Journal of Computer-Aided Molecular Design",
-      "detail": "30, 625-637"
+      "detail": "30, 625-637",
+      "doi": "10.1007/s10822-016-9937-9"
     },
     {
       "year": 2016,
       "authors": "Yang H, Woo J, Pae AN, Um MY, <b>Cho NC</b>, Park KD, Yoon M, Kim J, Lee CJ, Cho S",
       "title": "α-Pinene, a Major Constituent of Pine Tree Oils, Enhances Non-Rapid Eye Movement Sleep in Mice through GABAA-benzodiazepine Receptors",
       "venue": "Molecular Pharmacology",
-      "detail": "90, 530-539"
+      "detail": "90, 530-539",
+      "doi": "10.1124/mol.116.105080"
     },
     {
       "year": 2015,
       "authors": "Ashraf ED, <b>Cho NC</b>, Kang SB, Pae AN, Keum G",
       "title": "ABL Kinase Inhibitory and Antiproliferative Activity of Novel Picolinamide Based Benzothiazoles",
       "venue": "Bioorganic & Medicinal Chemistry Letters",
-      "detail": "25, 2162-2168"
+      "detail": "25, 2162-2168",
+      "doi": "10.1016/j.bmcl.2015.03.067"
     },
     {
       "year": 2015,
       "authors": "Ashraf ED, Seo SH, <b>Cho NC</b>, Kang SB, Pae AN, Kim KS, Keum GC",
       "title": "Design, Synthesis, in-vitro Antiproliferative Activity and Kinase Profile of New Picolinamide Based 2-amido and Ureido Quinoline Derivatives",
       "venue": "European Journal of Medicinal Chemistry",
-      "detail": "101, 754-768"
+      "detail": "101, 754-768",
+      "doi": "10.1016/j.ejmech.2015.07.025"
     },
     {
       "year": 2015,
@@ -363,70 +398,72 @@
       "title": "Discovery of 2-aryloxy-4-amino-quinazoline Derivative as a Novel Protease-Activated Receptor 2 (PAR2) Antagonists",
       "venue": "Bioorganic & Medicinal Chemistry",
       "detail": "23, 7717-7727",
-      "note": "공동 제1저자 / Co-first author"
-    },
-    {
-      "year": 2015,
-      "authors": "Elkamhawy A, Park J, <b>Cho NC</b>, Sim T, Pae AN, Roh EJ",
-      "title": "Discovery of a Broad Spectrum Antiproliferative Agent with Super Selectivity for DDR1 kinase: Cell line-based Assay, Kinase panel, Molecular Docking and Toxicity Studies",
-      "venue": "Journal of Enzyme Inhibition and Medicinal Chemistry",
-      "detail": "25, 1-9"
+      "note": "공동 제1저자 / Co-first author",
+      "doi": "10.1016/j.bmc.2015.11.016"
     },
     {
       "year": 2015,
       "authors": "Huang M, Suk DH, <b>Cho NC</b>, Bhattarai D, Kang SB, Kim Y, Pae AN, Rhim H, Keum G",
       "title": "Synthesis and Biological Evaluation of Isoxazoline Derivatives as Potent M1 Muscarinic Acetylcholine Receptor Agonists",
       "venue": "Bioorganic & Medicinal Chemistry Letters",
-      "detail": "25, 1546-1551"
+      "detail": "25, 1546-1551",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0960894X15001195"
     },
     {
       "year": 2015,
       "authors": "Choi JW, Jang BK, <b>Cho NC</b>, Park JH, Yeon SK, Song HJ, Ju EJ, Lee YS, Han G, Pae AN, Park KD",
       "title": "Synthesis of a Series of Unsaturated Ketone Derivatives as Selective and Reversible Monoamine Oxidase Inhibitors",
       "venue": "Bioorganic & Medicinal Chemistry",
-      "detail": "23, 6486-6496"
+      "detail": "23, 6486-6496",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0968089615006793"
     },
     {
       "year": 2014,
       "authors": "Cho S, Yoon M, Pae AN, Jin YH, <b>Cho NC</b>, Takata Y, Urade Y, Kim S, Kim JS, Yang H, Kim J, Kim J, Han JK, Shimizu M, Huang ZL",
       "title": "Marine Polyphenol Phlorotannins Promote Non-rapid Eye Movement Sleep in Mice via the Benzodiazepine Site of the GABAA Receptor",
       "venue": "Psychopharmacology",
-      "detail": "231, 2825-2837"
+      "detail": "231, 2825-2837",
+      "doi": "10.1007/s00213-014-3445-1"
     },
     {
       "year": 2014,
       "authors": "Lee JH, Seo SH, Lim EJ, <b>Cho NC</b>, Nam G, Kang SB, Pae AN, Jeong N, Keum G",
       "title": "Synthesis and Biological Evaluation of 1-(isoxazol-5-ylmethylaminoethyl)-4-phenyl Tetrahydropyridine and Piperidine Derivatives as Potent T-type Calcium Channel Blockers with Antinociceptive Effect in a Neuropathic Pain Model",
       "venue": "European Journal of Medicinal Chemistry",
-      "detail": "74, 246-257"
+      "detail": "74, 246-257",
+      "doi": "10.1016/j.ejmech.2013.12.056"
     },
     {
       "year": 2012,
       "authors": "Cho S, Park JH, Pae AN, Han D, Kim D, <b>Cho NC</b>, No KT, Yang H, Yoon M, Lee C, Shimizu M, Baek NI",
       "title": "Hypnotic Effects and GABAergic Mechanism of Licorice (Glycyrrhiza glabra) Ethanol Extract and Its Major Flavonoid Constituent Glabrol",
       "venue": "Bioorganic & Medicinal Chemistry",
-      "detail": "20, 3493-3501"
+      "detail": "20, 3493-3501",
+      "doi": "10.1016/j.bmc.2012.04.011"
     },
     {
       "year": 2012,
       "authors": "Kim K, Kim SJ, <b>Cho NC</b>, Jung HJ, Ahn K, Ryu IW, Lim CJ",
       "title": "Reactive Oxygen Species-dependent Transcriptional Regulation of Peroxisome Proliferator-activated Receptor γ Coactivator 1α in a Human Hepatocarcinoma Cell Line",
       "venue": "Genes & Genomics",
-      "detail": "34, 709-713"
+      "detail": "34, 709-713",
+      "doi": "10.1007/s13258-012-0086-9"
     },
     {
       "year": 2006,
       "authors": "Kim SJ, <b>Cho NC</b>, Ryu IW, Kim K, Park EH, Lim CJ",
       "title": "Carbon Source-dependent Regulation of the Schizosaccharomyces pombe pbh1 Gene",
       "venue": "Journal of Microbiology",
-      "detail": "44, 689-693"
+      "detail": "44, 689-693",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17205051/"
     },
     {
       "year": 2006,
       "authors": "<b>Cho NC</b>, Kang HJ, Lim HW, Kim BC, Park EH, Lim CJ",
       "title": "Stress-dependent Regulation of Pbh1, a BIR Domain-containing Protein, in the Fission Yeast",
       "venue": "Canadian Journal of Microbiology",
-      "detail": "52, 1261-1265"
+      "detail": "52, 1261-1265",
+      "doi": "10.1139/w06-081"
     }
   ]
 }
